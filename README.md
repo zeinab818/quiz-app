@@ -13,7 +13,7 @@ Users can select their desired **category**, **difficulty level**, and **number 
 - 🔄 Dynamic data fetching from the [Open Trivia DB API](https://opentdb.com/)
 - 🧠 Multiple-choice questions with score tracking
 - 💡 Instant feedback on correct and incorrect answers
-- 📱 Fully responsive design using vanilla CSS
+- 📱 Fully responsive design using CSS and boostrap(framework)
 - 👩‍💻 Structured with **Object-Oriented JavaScript**
 
 ---
