@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+::selection{
+    background-color: rgb(255,106,0);
+    color: white;
+}
+
+select:focus {
+    outline: none;
+    border-color: #00E600;
+    box-shadow: 0 0 5px #00E600;
+}
+main .container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    text-align: center;
+}
+body{
+    background-image: url(../images/background.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    
+}
+
+main .container  .quiz form .form-floating{
+    margin-top: 30px;
+}
+main .container  .quiz form{
+    width: 100%;
+}
+h1{
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: 700;
+    background-color: white;
+    border-radius: 25px;
+    padding: 10px 25px;
+    display: inline;
+}
+a{
+    text-decoration: none;
+
+}
+.btn-start{
+    background-color: rgb(255,106,0);
+    border-radius: 25px;
+    padding: 20px 50px;
+    font-size: 20px;
+    color: white;
+    font-family: cursive;
+    transition: all 0.5s;
+}
+.btn-start:hover{
+    background-color:#00E600;
+}
+.btn-start:active{
+    background-color: #0071ED;
+}
+.choice{
+    background-color: rgb(255,106,0);
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    font-family: cursive;
+    transition: all 0.5s;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.choice:hover{
+    background-color:transparent;
+    border: 1px solid rgb(255,106,0);
+    color: black;
+}
+
+
+
+
+.choice.correct {
+    background-color: #28a745 !important;
+    color: white !important;
+}
+
+.choice.wrong {
+    background-color: #dc3545 !important;
+    color: white !important;
+}
+
+.choice:disabled {
+    opacity: 0.8;
+    cursor: not-allowed;
+}
+@media screen and (max-width:700px) {
+    .container{
+        width: 90% !important;
+    }
+    
+}
